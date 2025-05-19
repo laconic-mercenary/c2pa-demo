@@ -172,3 +172,12 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+.deploy
+
+## TERRAFORM
+.terraform*
+terraform.tfstate
+terraform.tfstate.backup
+
+local.settings.json
