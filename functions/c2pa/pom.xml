@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.mattc2pa</groupId>
+    <artifactId>c2pa</artifactId>
+    <version>${revision}</version>
+    <packaging>pom</packaging>
+    
+    <properties>
+        <revision>1.0-SNAPSHOT</revision>
+        <scala.version>3.4.0</scala.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>17</java.version>
+        <azure.functions.maven.plugin.version>1.24.0</azure.functions.maven.plugin.version>
+        <azure.functions.java.library.version>2.2.0</azure.functions.java.library.version>
+        <functionAppName>mattc2pa-sign</functionAppName>
+    </properties>
+
+    <modules>
+        <module>c2pa</module>
+    </modules>
+</project>
