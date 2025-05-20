@@ -181,3 +181,8 @@ terraform.tfstate
 terraform.tfstate.backup
 
 local.settings.json
+
+## RUST
+target
+*.zip
+handler
